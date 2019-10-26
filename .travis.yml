@@ -1,0 +1,6 @@
+arch: 
+  - arm64
+  - amd65
+services:
+  - docker
+script: docker build -t stenwt/laminar -f Dockerfile .
